@@ -1,0 +1,643 @@
+// Domain dependencies
+digraph {
+	"google.com" [label="google.com" fillcolor="#ffccaabb" style=filled]
+	"gstatic.com" [label="gstatic.com"]
+	"google.fi" [label="google.fi"]
+	"doubleclick.net" [label="doubleclick.net"]
+	"youtube.com" [label="youtube.com" fillcolor="#ffccaabb" style=filled]
+	"ytimg.com" [label="ytimg.com"]
+	"googleapis.com" [label="googleapis.com"]
+	"ggpht.com" [label="ggpht.com"]
+	"facebook.com" [label="facebook.com" fillcolor="#ffccaabb" style=filled]
+	"fbcdn.net" [label="fbcdn.net"]
+	"is.fi" [label="is.fi" fillcolor="#ffccaabb" style=filled]
+	"tiqcdn.com" [label="tiqcdn.com"]
+	"googletagmanager.com" [label="googletagmanager.com"]
+	"mediadelivery.fi" [label="mediadelivery.fi"]
+	"speedcurve.com" [label="speedcurve.com"]
+	"sp-prod.net" [label="sp-prod.net"]
+	"adnxs.com" [label="adnxs.com"]
+	"dnt-userreport.com" [label="dnt-userreport.com"]
+	"nelonenmedia.fi" [label="nelonenmedia.fi"]
+	"supersaa.fi" [label="supersaa.fi"]
+	"privacy-mgmt.com" [label="privacy-mgmt.com"]
+	"richie.fi" [label="richie.fi"]
+	"chartbeat.com" [label="chartbeat.com"]
+	"chartbeat.net" [label="chartbeat.net"]
+	"cloudfront.net" [label="cloudfront.net"]
+	"sanoma.fi" [label="sanoma.fi"]
+	"iltalehti.fi" [label="iltalehti.fi" fillcolor="#ffccaabb" style=filled]
+	"ilcdn.fi" [label="ilcdn.fi"]
+	"gravito.net" [label="gravito.net"]
+	"almamedia.fi" [label="almamedia.fi"]
+	"ensighten.com" [label="ensighten.com"]
+	"google-analytics.com" [label="google-analytics.com"]
+	"almacrcommoncontent.net" [label="almacrcommoncontent.net"]
+	"il.fi" [label="il.fi"]
+	"almamedia.tech" [label="almamedia.tech"]
+	"yle.fi" [label="yle.fi" fillcolor="#ffccaabb" style=filled]
+	"branch.io" [label="branch.io"]
+	"app.link" [label="app.link"]
+	"kaltura.com" [label="kaltura.com"]
+	"userreport.com" [label="userreport.com"]
+	"demdex.net" [label="demdex.net"]
+	"omtrdc.net" [label="omtrdc.net"]
+	"wikipedia.org" [label="wikipedia.org" fillcolor="#ffccaabb" style=filled]
+	"tori.fi" [label="tori.fi" fillcolor="#ffccaabb" style=filled]
+	"abtasty.com" [label="abtasty.com"]
+	"cxense.com" [label="cxense.com"]
+	"adtlgc.com" [label="adtlgc.com"]
+	"xiti.com" [label="xiti.com"]
+	"klevu.com" [label="klevu.com"]
+	"schibsted.com" [label="schibsted.com"]
+	"mathtag.com" [label="mathtag.com"]
+	"tealiumiq.com" [label="tealiumiq.com"]
+	"hotjar.com" [label="hotjar.com"]
+	"adform.net" [label="adform.net"]
+	"amplitude.com" [label="amplitude.com"]
+	"scorecardresearch.com" [label="scorecardresearch.com"]
+	"schibsted.io" [label="schibsted.io"]
+	"smartadserver.com" [label="smartadserver.com"]
+	"twitter.com" [label="twitter.com" fillcolor="#ffccaabb" style=filled]
+	"twimg.com" [label="twimg.com"]
+	"hs.fi" [label="hs.fi" fillcolor="#ffccaabb" style=filled]
+	"instagram.com" [label="instagram.com" fillcolor="#ffccaabb" style=filled]
+	"facebook.net" [label="facebook.net"]
+	"veikkaus.fi" [label="veikkaus.fi" fillcolor="#ffccaabb" style=filled]
+	"pornhub.com" [label="pornhub.com" fillcolor="#ffccaabb" style=filled]
+	"trafficjunky.com" [label="trafficjunky.com"]
+	"phncdn.com" [label="phncdn.com"]
+	"adtng.com" [label="adtng.com"]
+	"trafficjunky.net" [label="trafficjunky.net"]
+	"mtvuutiset.fi" [label="mtvuutiset.fi" fillcolor="#ffccaabb" style=filled]
+	"katsomo.fi" [label="katsomo.fi"]
+	"mtv.fi" [label="mtv.fi"]
+	"lp4.io" [label="lp4.io"]
+	"adobedtm.com" [label="adobedtm.com"]
+	"cookielaw.org" [label="cookielaw.org"]
+	"onetrust.com" [label="onetrust.com"]
+	"everesttech.net" [label="everesttech.net"]
+	"inpref.com" [label="inpref.com"]
+	"leiki.com" [label="leiki.com"]
+	"frosmo.com" [label="frosmo.com"]
+	"relevant-digital.com" [label="relevant-digital.com"]
+	"jsdelivr.net" [label="jsdelivr.net"]
+	"fwmrm.net" [label="fwmrm.net"]
+	"cintnetworks.com" [label="cintnetworks.com"]
+	"op.fi" [label="op.fi" fillcolor="#ffccaabb" style=filled]
+	"selenium-error.info" [label="selenium-error.info"]
+	"reddit.com" [label="reddit.com" fillcolor="#ffccaabb" style=filled]
+	"redditstatic.com" [label="redditstatic.com"]
+	"redditmedia.com" [label="redditmedia.com"]
+	"redd.it" [label="redd.it"]
+	"googletagservices.com" [label="googletagservices.com"]
+	"amazon-adsystem.com" [label="amazon-adsystem.com"]
+	"aaxads.com" [label="aaxads.com"]
+	"aaxdetect.com" [label="aaxdetect.com"]
+	"rlcdn.com" [label="rlcdn.com"]
+	"quantserve.com" [label="quantserve.com"]
+	"quantcount.com" [label="quantcount.com"]
+	"foreca.fi" [label="foreca.fi" fillcolor="#ffccaabb" style=filled]
+	"sascdn.com" [label="sascdn.com"]
+	"foreca.net" [label="foreca.net"]
+	"consensu.org" [label="consensu.org"]
+	"nordea.fi" [label="nordea.fi" fillcolor="#ffccaabb" style=filled]
+	"cookiereports.com" [label="cookiereports.com"]
+	"suomi.fi" [label="suomi.fi" fillcolor="#ffccaabb" style=filled]
+	"live.com" [label="live.com" fillcolor="#ffccaabb" style=filled]
+	"microsoft.com" [label="microsoft.com"]
+	"office365.com" [label="office365.com"]
+	"elisa.fi" [label="elisa.fi" fillcolor="#ffccaabb" style=filled]
+	"nuance.com" [label="nuance.com"]
+	"conductrics.com" [label="conductrics.com"]
+	"wurfl.io" [label="wurfl.io"]
+	"ipify.org" [label="ipify.org"]
+	"krxd.net" [label="krxd.net"]
+	"amazonaws.com" [label="amazonaws.com"]
+	"mailjet.com" [label="mailjet.com"]
+	"db-ip.com" [label="db-ip.com"]
+	"cloudflare.com" [label="cloudflare.com"]
+	"elisa.com" [label="elisa.com"]
+	"qualaroo.com" [label="qualaroo.com"]
+	"ilmatieteenlaitos.fi" [label="ilmatieteenlaitos.fi" fillcolor="#ffccaabb" style=filled]
+	"fmi.fi" [label="fmi.fi"]
+	"nettiauto.com" [label="nettiauto.com" fillcolor="#ffccaabb" style=filled]
+	"nettix.fi" [label="nettix.fi"]
+	"privacymanager.io" [label="privacymanager.io"]
+	"adsafeprotected.com" [label="adsafeprotected.com"]
+	"cdn-apple.com" [label="cdn-apple.com"]
+	"pubmatic.com" [label="pubmatic.com"]
+	"surveymonkey.com" [label="surveymonkey.com"]
+	"etuovi.com" [label="etuovi.com" fillcolor="#ffccaabb" style=filled]
+	"polyfill.io" [label="polyfill.io"]
+	"ylilauta.org" [label="ylilauta.org" fillcolor="#ffccaabb" style=filled]
+	"office.com" [label="office.com" fillcolor="#ffccaabb" style=filled]
+	"msocdn.com" [label="msocdn.com"]
+	"akamaized.net" [label="akamaized.net"]
+	"gfx.ms" [label="gfx.ms"]
+	"bing.com" [label="bing.com"]
+	"kauppalehti.fi" [label="kauppalehti.fi" fillcolor="#ffccaabb" style=filled]
+	"almatalent.fi" [label="almatalent.fi"]
+	"shockinggrass.com" [label="shockinggrass.com"]
+	"googlesyndication.com" [label="googlesyndication.com"]
+	"xnxx.com" [label="xnxx.com" fillcolor="#ffccaabb" style=filled]
+	"xnxx-cdn.com" [label="xnxx-cdn.com"]
+	"trafficfactory.biz" [label="trafficfactory.biz"]
+	"xvideos.com" [label="xvideos.com" fillcolor="#ffccaabb" style=filled]
+	"xvideos-cdn.com" [label="xvideos-cdn.com"]
+	"telia.fi" [label="telia.fi" fillcolor="#ffccaabb" style=filled]
+	"myfonts.net" [label="myfonts.net"]
+	"cookieinformation.com" [label="cookieinformation.com"]
+	"addsearch.com" [label="addsearch.com"]
+	"igodigital.com" [label="igodigital.com"]
+	"lekane.net" [label="lekane.net"]
+	"suomi24.fi" [label="suomi24.fi" fillcolor="#ffccaabb" style=filled]
+	"lwadm.com" [label="lwadm.com"]
+	"pushpushgo.com" [label="pushpushgo.com"]
+	"rubiconproject.com" [label="rubiconproject.com"]
+	"criteo.com" [label="criteo.com"]
+	"googleadservices.com" [label="googleadservices.com"]
+	"criteo.net" [label="criteo.net"]
+	"twitch.tv" [label="twitch.tv" fillcolor="#ffccaabb" style=filled]
+	"twitchcdn.net" [label="twitchcdn.net"]
+	"ttvnw.net" [label="ttvnw.net"]
+	"jtvnw.net" [label="jtvnw.net"]
+	"imrworldwide.com" [label="imrworldwide.com"]
+	"netflix.com" [label="netflix.com" fillcolor="#ffccaabb" style=filled]
+	"nflxext.com" [label="nflxext.com"]
+	"verkkokauppa.com" [label="verkkokauppa.com" fillcolor="#ffccaabb" style=filled]
+	"trackjs.com" [label="trackjs.com"]
+	"verk.net" [label="verk.net"]
+	"huutokaupat.com" [label="huutokaupat.com" fillcolor="#ffccaabb" style=filled]
+	"licdn.com" [label="licdn.com"]
+	"linkedin.com" [label="linkedin.com"]
+	"freshchat.com" [label="freshchat.com"]
+	"es.io" [label="es.io"]
+	"k-ruoka.fi" [label="k-ruoka.fi" fillcolor="#ffccaabb" style=filled]
+	"ctfassets.net" [label="ctfassets.net"]
+	"giosg.com" [label="giosg.com"]
+	"kesko.fi" [label="kesko.fi"]
+	"giosgusercontent.com" [label="giosgusercontent.com"]
+	"oikotie.fi" [label="oikotie.fi" fillcolor="#ffccaabb" style=filled]
+	"oikotiecdn.fi" [label="oikotiecdn.fi"]
+	"ruutu.fi" [label="ruutu.fi"]
+	"marketo.com" [label="marketo.com"]
+	"apple.com" [label="apple.com"]
+	"snmdt.fi" [label="snmdt.fi"]
+	"unpkg.com" [label="unpkg.com"]
+	"kela.fi" [label="kela.fi" fillcolor="#ffccaabb" style=filled]
+	"xhamster.com" [label="xhamster.com" fillcolor="#ffccaabb" style=filled]
+	"xhcdn.com" [label="xhcdn.com"]
+	"tsyndicate.com" [label="tsyndicate.com"]
+	"stripst.com" [label="stripst.com"]
+	"vk.com" [label="vk.com" fillcolor="#ffccaabb" style=filled]
+	"mail.ru" [label="mail.ru"]
+	"tns-counter.ru" [label="tns-counter.ru"]
+	"jquery.com" [label="jquery.com"]
+	"motonet.fi" [label="motonet.fi" fillcolor="#ffccaabb" style=filled]
+	"bootstrapcdn.com" [label="bootstrapcdn.com"]
+	"jst.ai" [label="jst.ai"]
+	"s-pankki.fi" [label="s-pankki.fi" fillcolor="#ffccaabb" style=filled]
+	"fonts.net" [label="fonts.net"]
+	"visualwebsiteoptimizer.com" [label="visualwebsiteoptimizer.com"]
+	"crazyegg.com" [label="crazyegg.com"]
+	"gigantti.fi" [label="gigantti.fi" fillcolor="#ffccaabb" style=filled]
+	"queue-it.net" [label="queue-it.net"]
+	"inschool.fi" [label="inschool.fi" fillcolor="#ffccaabb" style=filled]
+	"posti.fi" [label="posti.fi" fillcolor="#ffccaabb" style=filled]
+	"newrelic.com" [label="newrelic.com"]
+	"nr-data.net" [label="nr-data.net"]
+	"googleoptimize.com" [label="googleoptimize.com"]
+	"yandex.ru" [label="yandex.ru" fillcolor="#ffccaabb" style=filled]
+	"yastatic.net" [label="yastatic.net"]
+	"yandex.net" [label="yandex.net"]
+	"google.com" -> "gstatic.com"
+	"google.com" -> "google.fi"
+	"google.com" -> "doubleclick.net"
+	"youtube.com" -> "ytimg.com"
+	"youtube.com" -> "googleapis.com"
+	"youtube.com" -> "gstatic.com"
+	"youtube.com" -> "google.com"
+	"youtube.com" -> "ggpht.com"
+	"youtube.com" -> "google.fi"
+	"facebook.com" -> "fbcdn.net"
+	"is.fi" -> "tiqcdn.com"
+	"is.fi" -> "googletagmanager.com"
+	"is.fi" -> "mediadelivery.fi"
+	"is.fi" -> "speedcurve.com"
+	"is.fi" -> "sp-prod.net"
+	"is.fi" -> "adnxs.com"
+	"is.fi" -> "dnt-userreport.com"
+	"is.fi" -> "nelonenmedia.fi"
+	"is.fi" -> "supersaa.fi"
+	"is.fi" -> "privacy-mgmt.com"
+	"is.fi" -> "richie.fi"
+	"is.fi" -> "chartbeat.com"
+	"is.fi" -> "chartbeat.net"
+	"is.fi" -> "googleapis.com"
+	"is.fi" -> "cloudfront.net"
+	"is.fi" -> "sanoma.fi"
+	"is.fi" -> "gstatic.com"
+	"iltalehti.fi" -> "ilcdn.fi"
+	"iltalehti.fi" -> "adnxs.com"
+	"iltalehti.fi" -> "gravito.net"
+	"iltalehti.fi" -> "almamedia.fi"
+	"iltalehti.fi" -> "ensighten.com"
+	"iltalehti.fi" -> "google-analytics.com"
+	"iltalehti.fi" -> "almacrcommoncontent.net"
+	"iltalehti.fi" -> "googleapis.com"
+	"iltalehti.fi" -> "il.fi"
+	"iltalehti.fi" -> "chartbeat.com"
+	"iltalehti.fi" -> "gstatic.com"
+	"iltalehti.fi" -> "chartbeat.net"
+	"iltalehti.fi" -> "dnt-userreport.com"
+	"iltalehti.fi" -> "almamedia.tech"
+	"google.fi" -> "google.com"
+	"google.fi" -> "gstatic.com"
+	"yle.fi" -> "googleapis.com"
+	"yle.fi" -> "branch.io"
+	"yle.fi" -> "googletagmanager.com"
+	"yle.fi" -> "gstatic.com"
+	"yle.fi" -> "app.link"
+	"yle.fi" -> "kaltura.com"
+	"yle.fi" -> "userreport.com"
+	"yle.fi" -> "chartbeat.net"
+	"yle.fi" -> "demdex.net"
+	"yle.fi" -> "omtrdc.net"
+	"tori.fi" -> "cloudfront.net"
+	"tori.fi" -> "privacy-mgmt.com"
+	"tori.fi" -> "abtasty.com"
+	"tori.fi" -> "adnxs.com"
+	"tori.fi" -> "cxense.com"
+	"tori.fi" -> "adtlgc.com"
+	"tori.fi" -> "tiqcdn.com"
+	"tori.fi" -> "xiti.com"
+	"tori.fi" -> "klevu.com"
+	"tori.fi" -> "schibsted.com"
+	"tori.fi" -> "mathtag.com"
+	"tori.fi" -> "tealiumiq.com"
+	"tori.fi" -> "hotjar.com"
+	"tori.fi" -> "adform.net"
+	"tori.fi" -> "amplitude.com"
+	"tori.fi" -> "scorecardresearch.com"
+	"tori.fi" -> "schibsted.io"
+	"tori.fi" -> "doubleclick.net"
+	"tori.fi" -> "smartadserver.com"
+	"twitter.com" -> "twimg.com"
+	"twitter.com" -> "google-analytics.com"
+	"hs.fi" -> "tiqcdn.com"
+	"hs.fi" -> "googletagmanager.com"
+	"hs.fi" -> "mediadelivery.fi"
+	"hs.fi" -> "sp-prod.net"
+	"hs.fi" -> "adnxs.com"
+	"hs.fi" -> "dnt-userreport.com"
+	"hs.fi" -> "supersaa.fi"
+	"hs.fi" -> "nelonenmedia.fi"
+	"hs.fi" -> "privacy-mgmt.com"
+	"hs.fi" -> "richie.fi"
+	"hs.fi" -> "chartbeat.com"
+	"hs.fi" -> "chartbeat.net"
+	"hs.fi" -> "googleapis.com"
+	"hs.fi" -> "cloudfront.net"
+	"hs.fi" -> "sanoma.fi"
+	"hs.fi" -> "gstatic.com"
+	"instagram.com" -> "facebook.net"
+	"instagram.com" -> "facebook.com"
+	"veikkaus.fi" -> "speedcurve.com"
+	"veikkaus.fi" -> "googletagmanager.com"
+	"veikkaus.fi" -> "google-analytics.com"
+	"veikkaus.fi" -> "adform.net"
+	"veikkaus.fi" -> "facebook.net"
+	"veikkaus.fi" -> "facebook.com"
+	"pornhub.com" -> "trafficjunky.com"
+	"pornhub.com" -> "phncdn.com"
+	"pornhub.com" -> "google-analytics.com"
+	"pornhub.com" -> "adtng.com"
+	"pornhub.com" -> "trafficjunky.net"
+	"pornhub.com" -> "doubleclick.net"
+	"pornhub.com" -> "google.com"
+	"pornhub.com" -> "google.fi"
+	"mtvuutiset.fi" -> "katsomo.fi"
+	"mtvuutiset.fi" -> "mtv.fi"
+	"mtvuutiset.fi" -> "lp4.io"
+	"mtvuutiset.fi" -> "cloudfront.net"
+	"mtvuutiset.fi" -> "adobedtm.com"
+	"mtvuutiset.fi" -> "demdex.net"
+	"mtvuutiset.fi" -> "cookielaw.org"
+	"mtvuutiset.fi" -> "onetrust.com"
+	"mtvuutiset.fi" -> "omtrdc.net"
+	"mtvuutiset.fi" -> "everesttech.net"
+	"mtvuutiset.fi" -> "inpref.com"
+	"mtvuutiset.fi" -> "leiki.com"
+	"mtvuutiset.fi" -> "frosmo.com"
+	"mtvuutiset.fi" -> "relevant-digital.com"
+	"mtvuutiset.fi" -> "jsdelivr.net"
+	"mtvuutiset.fi" -> "cxense.com"
+	"mtvuutiset.fi" -> "adform.net"
+	"mtvuutiset.fi" -> "fwmrm.net"
+	"mtvuutiset.fi" -> "cintnetworks.com"
+	"mtvuutiset.fi" -> "dnt-userreport.com"
+	"mtvuutiset.fi" -> "doubleclick.net"
+	"mtvuutiset.fi" -> "adnxs.com"
+	"mtvuutiset.fi" -> "smartadserver.com"
+	"op.fi" -> "selenium-error.info"
+	"reddit.com" -> "redditstatic.com"
+	"reddit.com" -> "redditmedia.com"
+	"reddit.com" -> "redd.it"
+	"reddit.com" -> "googletagservices.com"
+	"reddit.com" -> "amazon-adsystem.com"
+	"reddit.com" -> "aaxads.com"
+	"reddit.com" -> "doubleclick.net"
+	"reddit.com" -> "aaxdetect.com"
+	"reddit.com" -> "googletagmanager.com"
+	"reddit.com" -> "rlcdn.com"
+	"reddit.com" -> "quantserve.com"
+	"reddit.com" -> "scorecardresearch.com"
+	"reddit.com" -> "google.com"
+	"reddit.com" -> "quantcount.com"
+	"foreca.fi" -> "relevant-digital.com"
+	"foreca.fi" -> "sascdn.com"
+	"foreca.fi" -> "googletagmanager.com"
+	"foreca.fi" -> "foreca.net"
+	"foreca.fi" -> "consensu.org"
+	"foreca.fi" -> "quantserve.com"
+	"foreca.fi" -> "quantcount.com"
+	"nordea.fi" -> "tiqcdn.com"
+	"nordea.fi" -> "cookiereports.com"
+	"nordea.fi" -> "youtube.com"
+	"suomi.fi" -> "googleapis.com"
+	"suomi.fi" -> "gstatic.com"
+	"live.com" -> "microsoft.com"
+	"live.com" -> "office365.com"
+	"elisa.fi" -> "cloudfront.net"
+	"elisa.fi" -> "inpref.com"
+	"elisa.fi" -> "googletagmanager.com"
+	"elisa.fi" -> "google-analytics.com"
+	"elisa.fi" -> "nuance.com"
+	"elisa.fi" -> "facebook.net"
+	"elisa.fi" -> "hotjar.com"
+	"elisa.fi" -> "conductrics.com"
+	"elisa.fi" -> "wurfl.io"
+	"elisa.fi" -> "ipify.org"
+	"elisa.fi" -> "krxd.net"
+	"elisa.fi" -> "amazonaws.com"
+	"elisa.fi" -> "mailjet.com"
+	"elisa.fi" -> "db-ip.com"
+	"elisa.fi" -> "doubleclick.net"
+	"elisa.fi" -> "facebook.com"
+	"elisa.fi" -> "google.com"
+	"elisa.fi" -> "google.fi"
+	"elisa.fi" -> "googleapis.com"
+	"elisa.fi" -> "cloudflare.com"
+	"elisa.fi" -> "elisa.com"
+	"elisa.fi" -> "gstatic.com"
+	"elisa.fi" -> "qualaroo.com"
+	"ilmatieteenlaitos.fi" -> "google.com"
+	"ilmatieteenlaitos.fi" -> "googleapis.com"
+	"ilmatieteenlaitos.fi" -> "google-analytics.com"
+	"ilmatieteenlaitos.fi" -> "fmi.fi"
+	"ilmatieteenlaitos.fi" -> "cloudflare.com"
+	"nettiauto.com" -> "nettix.fi"
+	"nettiauto.com" -> "googleapis.com"
+	"nettiauto.com" -> "privacymanager.io"
+	"nettiauto.com" -> "adsafeprotected.com"
+	"nettiauto.com" -> "cloudflare.com"
+	"nettiauto.com" -> "cdn-apple.com"
+	"nettiauto.com" -> "googletagmanager.com"
+	"nettiauto.com" -> "pubmatic.com"
+	"nettiauto.com" -> "gstatic.com"
+	"nettiauto.com" -> "jsdelivr.net"
+	"nettiauto.com" -> "doubleclick.net"
+	"nettiauto.com" -> "userreport.com"
+	"nettiauto.com" -> "google-analytics.com"
+	"nettiauto.com" -> "surveymonkey.com"
+	"nettiauto.com" -> "google.com"
+	"nettiauto.com" -> "google.fi"
+	"etuovi.com" -> "polyfill.io"
+	"etuovi.com" -> "adnxs.com"
+	"etuovi.com" -> "ensighten.com"
+	"etuovi.com" -> "cloudfront.net"
+	"etuovi.com" -> "google.com"
+	"etuovi.com" -> "gravito.net"
+	"etuovi.com" -> "almamedia.fi"
+	"etuovi.com" -> "almacrcommoncontent.net"
+	"etuovi.com" -> "gstatic.com"
+	"etuovi.com" -> "googleapis.com"
+	"etuovi.com" -> "iltalehti.fi"
+	"etuovi.com" -> "almamedia.tech"
+	"etuovi.com" -> "dnt-userreport.com"
+	"office.com" -> "msocdn.com"
+	"office.com" -> "microsoft.com"
+	"office.com" -> "akamaized.net"
+	"office.com" -> "gfx.ms"
+	"office.com" -> "bing.com"
+	"kauppalehti.fi" -> "almatalent.fi"
+	"kauppalehti.fi" -> "il.fi"
+	"kauppalehti.fi" -> "gravito.net"
+	"kauppalehti.fi" -> "adnxs.com"
+	"kauppalehti.fi" -> "ensighten.com"
+	"kauppalehti.fi" -> "google-analytics.com"
+	"kauppalehti.fi" -> "almamedia.fi"
+	"kauppalehti.fi" -> "richie.fi"
+	"kauppalehti.fi" -> "cloudfront.net"
+	"kauppalehti.fi" -> "googleapis.com"
+	"kauppalehti.fi" -> "cloudflare.com"
+	"kauppalehti.fi" -> "ilcdn.fi"
+	"kauppalehti.fi" -> "shockinggrass.com"
+	"kauppalehti.fi" -> "krxd.net"
+	"kauppalehti.fi" -> "dnt-userreport.com"
+	"kauppalehti.fi" -> "almamedia.tech"
+	"kauppalehti.fi" -> "doubleclick.net"
+	"kauppalehti.fi" -> "googlesyndication.com"
+	"kauppalehti.fi" -> "iltalehti.fi"
+	"kauppalehti.fi" -> "gstatic.com"
+	"xnxx.com" -> "xnxx-cdn.com"
+	"xnxx.com" -> "trafficfactory.biz"
+	"xvideos.com" -> "xvideos-cdn.com"
+	"xvideos.com" -> "trafficfactory.biz"
+	"telia.fi" -> "myfonts.net"
+	"telia.fi" -> "googletagmanager.com"
+	"telia.fi" -> "cookieinformation.com"
+	"telia.fi" -> "addsearch.com"
+	"telia.fi" -> "twitter.com"
+	"telia.fi" -> "facebook.net"
+	"telia.fi" -> "igodigital.com"
+	"telia.fi" -> "lekane.net"
+	"suomi24.fi" -> "lwadm.com"
+	"suomi24.fi" -> "googlesyndication.com"
+	"suomi24.fi" -> "doubleclick.net"
+	"suomi24.fi" -> "googleapis.com"
+	"suomi24.fi" -> "cookielaw.org"
+	"suomi24.fi" -> "pushpushgo.com"
+	"suomi24.fi" -> "onetrust.com"
+	"suomi24.fi" -> "googletagmanager.com"
+	"suomi24.fi" -> "gstatic.com"
+	"suomi24.fi" -> "google-analytics.com"
+	"suomi24.fi" -> "jsdelivr.net"
+	"suomi24.fi" -> "rubiconproject.com"
+	"suomi24.fi" -> "pubmatic.com"
+	"suomi24.fi" -> "criteo.com"
+	"suomi24.fi" -> "adform.net"
+	"suomi24.fi" -> "googleadservices.com"
+	"suomi24.fi" -> "google.fi"
+	"suomi24.fi" -> "google.com"
+	"suomi24.fi" -> "googletagservices.com"
+	"suomi24.fi" -> "hotjar.com"
+	"suomi24.fi" -> "criteo.net"
+	"twitch.tv" -> "twitchcdn.net"
+	"twitch.tv" -> "ttvnw.net"
+	"twitch.tv" -> "gstatic.com"
+	"twitch.tv" -> "googletagservices.com"
+	"twitch.tv" -> "amazon-adsystem.com"
+	"twitch.tv" -> "jtvnw.net"
+	"twitch.tv" -> "doubleclick.net"
+	"twitch.tv" -> "app.link"
+	"twitch.tv" -> "branch.io"
+	"twitch.tv" -> "scorecardresearch.com"
+	"twitch.tv" -> "cloudfront.net"
+	"twitch.tv" -> "imrworldwide.com"
+	"netflix.com" -> "nflxext.com"
+	"netflix.com" -> "cookielaw.org"
+	"netflix.com" -> "onetrust.com"
+	"verkkokauppa.com" -> "googleapis.com"
+	"verkkokauppa.com" -> "googletagmanager.com"
+	"verkkokauppa.com" -> "gstatic.com"
+	"verkkokauppa.com" -> "google-analytics.com"
+	"verkkokauppa.com" -> "trackjs.com"
+	"verkkokauppa.com" -> "doubleclick.net"
+	"verkkokauppa.com" -> "google.com"
+	"verkkokauppa.com" -> "google.fi"
+	"verkkokauppa.com" -> "verk.net"
+	"huutokaupat.com" -> "cloudfront.net"
+	"huutokaupat.com" -> "google-analytics.com"
+	"huutokaupat.com" -> "googletagmanager.com"
+	"huutokaupat.com" -> "hotjar.com"
+	"huutokaupat.com" -> "googleadservices.com"
+	"huutokaupat.com" -> "licdn.com"
+	"huutokaupat.com" -> "facebook.net"
+	"huutokaupat.com" -> "bing.com"
+	"huutokaupat.com" -> "facebook.com"
+	"huutokaupat.com" -> "doubleclick.net"
+	"huutokaupat.com" -> "linkedin.com"
+	"huutokaupat.com" -> "google.com"
+	"huutokaupat.com" -> "google.fi"
+	"huutokaupat.com" -> "freshchat.com"
+	"huutokaupat.com" -> "es.io"
+	"k-ruoka.fi" -> "ctfassets.net"
+	"k-ruoka.fi" -> "cloudflare.com"
+	"k-ruoka.fi" -> "googletagmanager.com"
+	"k-ruoka.fi" -> "giosg.com"
+	"k-ruoka.fi" -> "google-analytics.com"
+	"k-ruoka.fi" -> "kesko.fi"
+	"k-ruoka.fi" -> "amazonaws.com"
+	"k-ruoka.fi" -> "doubleclick.net"
+	"k-ruoka.fi" -> "giosgusercontent.com"
+	"k-ruoka.fi" -> "google.com"
+	"k-ruoka.fi" -> "google.fi"
+	"oikotie.fi" -> "oikotiecdn.fi"
+	"oikotie.fi" -> "tiqcdn.com"
+	"oikotie.fi" -> "googletagmanager.com"
+	"oikotie.fi" -> "ruutu.fi"
+	"oikotie.fi" -> "sp-prod.net"
+	"oikotie.fi" -> "adnxs.com"
+	"oikotie.fi" -> "marketo.com"
+	"oikotie.fi" -> "privacy-mgmt.com"
+	"oikotie.fi" -> "google-analytics.com"
+	"oikotie.fi" -> "google.com"
+	"oikotie.fi" -> "apple.com"
+	"oikotie.fi" -> "googleapis.com"
+	"oikotie.fi" -> "cloudfront.net"
+	"oikotie.fi" -> "sanoma.fi"
+	"oikotie.fi" -> "gstatic.com"
+	"oikotie.fi" -> "snmdt.fi"
+	"oikotie.fi" -> "unpkg.com"
+	"linkedin.com" -> "licdn.com"
+	"linkedin.com" -> "scorecardresearch.com"
+	"linkedin.com" -> "google-analytics.com"
+	"linkedin.com" -> "google.com"
+	"linkedin.com" -> "gstatic.com"
+	"linkedin.com" -> "demdex.net"
+	"linkedin.com" -> "doubleclick.net"
+	"linkedin.com" -> "facebook.com"
+	"linkedin.com" -> "twitter.com"
+	"xhamster.com" -> "xhcdn.com"
+	"xhamster.com" -> "tsyndicate.com"
+	"xhamster.com" -> "googletagmanager.com"
+	"xhamster.com" -> "stripst.com"
+	"xhamster.com" -> "google-analytics.com"
+	"xhamster.com" -> "doubleclick.net"
+	"vk.com" -> "facebook.net"
+	"vk.com" -> "mail.ru"
+	"vk.com" -> "tns-counter.ru"
+	"vk.com" -> "facebook.com"
+	"almamedia.fi" -> "jquery.com"
+	"almamedia.fi" -> "ensighten.com"
+	"almamedia.fi" -> "cloudfront.net"
+	"almamedia.fi" -> "googleapis.com"
+	"almamedia.fi" -> "cloudflare.com"
+	"almamedia.fi" -> "myfonts.net"
+	"almamedia.fi" -> "gravito.net"
+	"almamedia.fi" -> "iltalehti.fi"
+	"almamedia.fi" -> "krxd.net"
+	"almamedia.fi" -> "almamedia.tech"
+	"motonet.fi" -> "bootstrapcdn.com"
+	"motonet.fi" -> "googleapis.com"
+	"motonet.fi" -> "googletagmanager.com"
+	"motonet.fi" -> "gstatic.com"
+	"motonet.fi" -> "google-analytics.com"
+	"motonet.fi" -> "doubleclick.net"
+	"motonet.fi" -> "criteo.net"
+	"motonet.fi" -> "jst.ai"
+	"motonet.fi" -> "facebook.net"
+	"motonet.fi" -> "adform.net"
+	"motonet.fi" -> "criteo.com"
+	"motonet.fi" -> "facebook.com"
+	"motonet.fi" -> "google.com"
+	"motonet.fi" -> "google.fi"
+	"s-pankki.fi" -> "google.com"
+	"s-pankki.fi" -> "fonts.net"
+	"s-pankki.fi" -> "giosg.com"
+	"s-pankki.fi" -> "visualwebsiteoptimizer.com"
+	"s-pankki.fi" -> "googletagmanager.com"
+	"s-pankki.fi" -> "gstatic.com"
+	"s-pankki.fi" -> "google-analytics.com"
+	"s-pankki.fi" -> "doubleclick.net"
+	"s-pankki.fi" -> "crazyegg.com"
+	"s-pankki.fi" -> "google.fi"
+	"s-pankki.fi" -> "giosgusercontent.com"
+	"s-pankki.fi" -> "amazonaws.com"
+	"s-pankki.fi" -> "googleadservices.com"
+	"gigantti.fi" -> "queue-it.net"
+	"gigantti.fi" -> "cloudflare.com"
+	"gigantti.fi" -> "cookieinformation.com"
+	"gigantti.fi" -> "googletagmanager.com"
+	"gigantti.fi" -> "googleapis.com"
+	"gigantti.fi" -> "gstatic.com"
+	"inschool.fi" -> "selenium-error.info"
+	"posti.fi" -> "googletagmanager.com"
+	"posti.fi" -> "googleapis.com"
+	"posti.fi" -> "ctfassets.net"
+	"posti.fi" -> "onetrust.com"
+	"posti.fi" -> "newrelic.com"
+	"posti.fi" -> "nr-data.net"
+	"posti.fi" -> "google-analytics.com"
+	"posti.fi" -> "hotjar.com"
+	"posti.fi" -> "krxd.net"
+	"posti.fi" -> "doubleclick.net"
+	"posti.fi" -> "google.com"
+	"posti.fi" -> "google.fi"
+	"posti.fi" -> "adform.net"
+	"ruutu.fi" -> "googleapis.com"
+	"ruutu.fi" -> "tiqcdn.com"
+	"ruutu.fi" -> "googleoptimize.com"
+	"ruutu.fi" -> "nelonenmedia.fi"
+	"ruutu.fi" -> "googletagmanager.com"
+	"ruutu.fi" -> "gstatic.com"
+	"ruutu.fi" -> "sanoma.fi"
+	"ruutu.fi" -> "sp-prod.net"
+	"ruutu.fi" -> "dnt-userreport.com"
+	"ruutu.fi" -> "privacy-mgmt.com"
+	"ruutu.fi" -> "cloudfront.net"
+	"yandex.ru" -> "yastatic.net"
+	"yandex.ru" -> "yandex.net"
+}

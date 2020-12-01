@@ -1,0 +1,7 @@
+tldextract
+selenium
+bs4
+networkx
+requests
+joblib
+graphviz
