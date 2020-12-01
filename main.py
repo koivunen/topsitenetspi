@@ -12,58 +12,13 @@ from joblib import Parallel, delayed
 from joblib import Memory
 memory = Memory(".joblib", verbose=0)
 
+# TODO: https://github.com/paulirish/headless-cat-n-mouse
+
 import datetime
 url_alexa='https://www.alexa.com/topsites/countries/%s'
-FI_DOMAINS="""google.com
-youtube.com
-facebook.com
-is.fi
-iltalehti.fi
-google.fi
-yle.fi
-wikipedia.org
-tori.fi
-twitter.com
-hs.fi
-instagram.com
-veikkaus.fi
-pornhub.com
-mtvuutiset.fi
-op.fi
-reddit.com
-foreca.fi
-nordea.fi
-suomi.fi
-live.com
-elisa.fi
-ilmatieteenlaitos.fi
-nettiauto.com
-etuovi.com
-ylilauta.org
-office.com
-kauppalehti.fi
-xnxx.com
-xvideos.com
-telia.fi
-suomi24.fi
-twitch.tv
-netflix.com
-verkkokauppa.com
-huutokaupat.com
-k-ruoka.fi
-oikotie.fi
-linkedin.com
-kela.fi
-xhamster.com
-vk.com
-almamedia.fi
-motonet.fi
-s-pankki.fi
-gigantti.fi
-inschool.fi
-posti.fi
-ruutu.fi
-yandex.ru""".splitlines()
+
+
+FI_DOMAINS=Path("top50fi.csv").read_text().splitlines()
 
 #@cachier(cache_dir="./.cachier",stale_after=datetime.timedelta(days=33))
 @memory.cache
